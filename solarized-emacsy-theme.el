@@ -47,10 +47,7 @@
 	      )))
       (mapcar (lambda (def)
 		(let ((face (car def))
-		      (value (mapcar (lambda (s)
-				       (if (keywordp s)
-					   s
-					 (c s)))
+		      (value (mapcar (lambda (s) (or (c s) s))
 				     (cdr def))))
 		  `(,face ((t ,@value)))))
 	    defs))))
