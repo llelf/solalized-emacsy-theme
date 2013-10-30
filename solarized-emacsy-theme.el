@@ -36,12 +36,12 @@
   (cl-flet ((c (color) (cadr (assoc color solarized-emacsy-colors))))
     (let ((defs
 	    '((default :background base2 :foreground base01)
-	      ;; (font-lock-comment-face :foreground red)
-	      ;; (font-lock-string-face :foreground magenta)
+	      (font-lock-comment-face :foreground red)
+	      (font-lock-string-face :foreground orange)
 	      (font-lock-function-name-face :foreground blue)
-	      ;; (font-lock-variable-name-face :foreground yellow)
-	      ;; (font-lock-type-face :foreground cyan)
-	      (font-lock-builtin-face :foreground orange)
+	      (font-lock-variable-name-face :foreground yellow)
+	      (font-lock-type-face :foreground cyan)
+	      (font-lock-builtin-face :foreground yellow)
 	      (font-lock-keyword-face :foreground magenta)
 
 	      (gnus-cite-1 :foreground violet)
