@@ -45,7 +45,9 @@
 	      (font-lock-keyword-face :foreground magenta)
 
 	      (gnus-cite-1 :foreground violet)
+	      (gnus-cite-2 :foreground red)
 	      (gnus-group-news-2 :foreground cyan :weight bold)
+	      (gnus-group-news-2-empty :foreground cyan)
 
 	      (minibuffer :foreground base03)
 	      (echo-area :foreground base03)
