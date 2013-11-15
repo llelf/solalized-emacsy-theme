@@ -43,6 +43,7 @@
 	      (font-lock-type-face :foreground cyan)
 	      (font-lock-builtin-face :foreground yellow)
 	      (font-lock-keyword-face :foreground magenta)
+	      (font-lock-constant-face :foreground green)
 
 	      (gnus-cite-1 :foreground violet)
 	      (gnus-cite-2 :foreground red)
