@@ -50,6 +50,7 @@
 	      (gnus-group-news-2 :foreground cyan :weight bold)
 	      (gnus-group-news-2-empty :foreground cyan)
 
+	      (fringe :background base2 :foreground base00)
 	      (minibuffer :foreground base03)
 	      (echo-area :foreground base03)
 	      )))
