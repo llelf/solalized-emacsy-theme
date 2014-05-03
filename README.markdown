@@ -6,7 +6,7 @@ solarized themes.
 
 This is uncomplete and only for light background.
 
-[agda.png]
-[elisp.png]
-[c.png]
+![agda](agda.png)
+![elisp](elisp.png)
+![c](c.png)
 
