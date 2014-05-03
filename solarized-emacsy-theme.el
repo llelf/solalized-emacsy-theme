@@ -35,7 +35,7 @@
 (defun solarized-emacsy-facedefs ()
   (cl-flet ((c (color) (cadr (assoc color solarized-emacsy-colors))))
     (let ((defs
-	    '((default :background base2 :foreground base01)
+	    '((default :background base2 :foreground base00)
 	      (font-lock-comment-face :foreground red)
 	      (font-lock-string-face :foreground orange)
 	      (font-lock-function-name-face :foreground blue)
