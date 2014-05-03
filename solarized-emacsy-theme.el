@@ -59,6 +59,8 @@
 	      (agda2-highlight-symbol-face :foreground base00)
 	      (agda2-highlight-inductive-constructor-face :foreground cyan)
 
+	      (mode-line :background base00 :foreground base3)
+	      (mode-line-inactive :background base2 :foreground base1)
 	      (region :background base3)
 	      (fringe :background base2 :foreground base00)
 	      (scroll-bar :background base2 :foreground base00)
