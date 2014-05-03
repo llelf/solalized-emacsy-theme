@@ -50,6 +50,15 @@
 	      (gnus-group-news-2 :foreground cyan :weight bold)
 	      (gnus-group-news-2-empty :foreground cyan)
 
+	      (agda2-highlight-keyword-face :foreground yellow)
+	      (agda2-highlight-module-face :foreground magenta)
+	      (agda2-highlight-primitive-type-face :foreground violet)
+	      (agda2-highlight-datatype-face :foreground violet)
+	      (agda2-highlight-record-face :foreground violet)
+	      (agda2-highlight-function-face :foreground blue)
+	      (agda2-highlight-symbol-face :foreground base00)
+	      (agda2-highlight-inductive-constructor-face :foreground cyan)
+
 	      (fringe :background base2 :foreground base00)
 	      (scroll-bar :background base2 :foreground base00)
 	      (minibuffer :foreground base03)
