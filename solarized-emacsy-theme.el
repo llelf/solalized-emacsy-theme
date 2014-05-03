@@ -1,6 +1,6 @@
 ;;; solarized-emacsy-theme.el
 
-;; Copyright (c) 2013 Anton Nikishaev <me@lelf.lu>
+;; Copyright (c) 2013 Antonio Nikishaev <a@lelf.me>
 ;; Licensed under MIT license.
 
 ;; Description: solarized theme that uses colours similar to standard
