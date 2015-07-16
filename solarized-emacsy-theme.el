@@ -62,6 +62,9 @@
 	      (agda2-highlight-coinductive-constructor-face :foreground yellow)
 	      (agda2-highlight-field-face :foreground magenta)
 
+	      (tuareg-font-lock-operator-face :foreground yellow)
+	      (tuareg-font-lock-governing-face :foreground green)
+
 	      (mode-line :background base00 :foreground base3)
 	      (mode-line-inactive :background base2 :foreground base1)
 	      (region :background base3)
