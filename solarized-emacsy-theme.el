@@ -44,6 +44,10 @@
 	      (font-lock-builtin-face :foreground yellow)
 	      (font-lock-keyword-face :foreground magenta)
 	      (font-lock-constant-face :foreground green)
+	      ;;(font-lock-preprocessor-face :foreground yellow)
+
+	      (warning :foreground yellow)
+	      (error :foreground magenta)
 
 	      (gnus-cite-1 :foreground violet)
 	      (gnus-cite-2 :foreground red)
