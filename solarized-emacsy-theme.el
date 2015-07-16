@@ -66,6 +66,8 @@
 	      (scroll-bar :background base2 :foreground base00)
 	      (minibuffer :foreground base03)
 	      (echo-area :foreground base03)
+
+	      (magit-item-highlight :background base3)
 	      )))
       (mapcar (lambda (def)
 		(let ((face (car def))
