@@ -69,6 +69,12 @@
 	      (tuareg-font-lock-operator-face :foreground yellow)
 	      (tuareg-font-lock-governing-face :foreground green)
 
+	      (proof-tactics-name-face :foreground violet)
+	      (coq-solve-tactics-face :foreground magenta)
+	      (coq-cheat-face :background red
+			      :distant-foreground red :foreground base3)
+	      (proof-locked-face :background base3)
+
 	      (mode-line :background base00 :foreground base3)
 	      (mode-line-inactive :background base2 :foreground base1)
 	      (region :background base3)
