@@ -102,7 +102,8 @@
 
     (warning	:foreground yellow)
     (error	:foreground magenta)
-
+    (success    :inherit solarized-cyan)
+    
     (gnus-cite-1		:foreground violet)
     (gnus-cite-2		:foreground red)
     (gnus-group-news-2		:foreground cyan :weight bold)
