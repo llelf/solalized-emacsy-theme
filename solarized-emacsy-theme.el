@@ -132,8 +132,11 @@
 				:distant-foreground red :foreground base3)
     (proof-locked-face		:background base3)
 
-    (mode-line		:background base00 :foreground base3)
-    (mode-line-inactive :background base2 :foreground base1)
+    (mode-line			:background base00      :foreground base2)
+    (mode-line-buffer-id	:inherit variable-pitch :foreground shadow) ;???
+    (mode-line-inactive		:background base2       :foreground base0)
+    (mode-line-highlight :inverse-video t)
+    
     (region		:background base3)
     (fringe		:background base2 :foreground base00)
     (scroll-bar		:background base2 :foreground base00)
@@ -141,6 +144,8 @@
     (echo-area		:foreground base03)
     (shadow		:foreground base1)
 
+    (tooltip :background "lightyellow" :inherit variable-pitch)
+    
     (magit-item-highlight	:background base02)
     ))
 
