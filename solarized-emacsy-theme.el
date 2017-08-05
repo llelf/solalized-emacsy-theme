@@ -106,8 +106,9 @@
     (gnus-group-news-2		:foreground cyan :weight bold)
     (gnus-group-news-2-empty	:foreground cyan)
 
-    (magit-branch-local		:foreground blue :underline t)
-    (magit-branch-remote	:foreground green :underline t)
+    (magit-branch-local		:inherit solarized-blue  :underline t)
+    (magit-branch-remote	:inherit solarized-green :underline t)
+    (magit-tag			:inherit solarized-cyan  :underline t)
 
     (agda2-highlight-keyword-face			:foreground yellow)
     (agda2-highlight-module-face			:foreground magenta)
