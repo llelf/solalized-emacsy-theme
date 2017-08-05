@@ -86,7 +86,8 @@
 
 (defconst solarized-emacsy-faces-defs
   '(
-    (default				:background base2 :foreground base00)
+    (default :foreground base01)
+
     (font-lock-comment-face		:inherit solarized-red)
     (font-lock-string-face		:inherit solarized-orange)
     (font-lock-function-name-face	:foreground blue)
