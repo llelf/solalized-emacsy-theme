@@ -127,6 +127,8 @@
 
     (scala-font-lock:var-face :inherit font-lock-variable-name-face)
 
+    (custom-button :box (:line-width 1) :background base3)
+    
     (tuareg-font-lock-operator-face	:foreground yellow)
     (tuareg-font-lock-governing-face	:foreground green)
 
