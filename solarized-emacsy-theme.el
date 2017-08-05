@@ -90,8 +90,10 @@
 
     (font-lock-comment-face		:inherit solarized-red)
     (font-lock-string-face		:inherit solarized-orange)
-    (font-lock-function-name-face	:foreground blue)
-    (font-lock-variable-name-face	:foreground yellow)
+    (font-lock-doc-face			:inherit font-lock-comment-face
+					:underline "#CBA492")
+    (font-lock-function-name-face	:inherit solarized-blue)
+    (font-lock-variable-name-face	:inherit solarized-yellow)
     (font-lock-type-face		:foreground cyan)
     (font-lock-builtin-face		:foreground yellow)
     (font-lock-keyword-face		:foreground magenta)
