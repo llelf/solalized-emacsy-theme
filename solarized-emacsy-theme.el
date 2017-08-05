@@ -106,7 +106,7 @@
     
     (gnus-cite-1		:foreground violet)
     (gnus-cite-2		:foreground red)
-    (gnus-group-news-2		:foreground cyan :weight bold)
+    (gnus-group-news-2		:foreground cyan :weight normal)
     (gnus-group-news-2-empty	:foreground cyan)
 
     (magit-branch-local		:inherit solarized-blue  :underline t)
@@ -134,8 +134,7 @@
 
     (proof-tactics-name-face	:foreground violet)
     (coq-solve-tactics-face	:foreground magenta)
-    (coq-cheat-face		:background red
-				:distant-foreground red :foreground base3)
+    (coq-cheat-face		:background red :distant-foreground red :foreground base3)
     (proof-locked-face		:background base3)
 
     (mode-line			:background base00      :foreground base2)
