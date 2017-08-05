@@ -161,3 +161,9 @@
 
 (provide-theme 'solarized-emacsy)
 
+;;;; ???
+(defun lelf/reload-theme ()
+  (interactive)
+  (apply 'custom-theme-set-faces 'solarized-emacsy
+	 (solarized-emacsy/make-defs solarized-emacsy-faces-defs))
+)
